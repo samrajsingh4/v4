@@ -2,8 +2,8 @@
 date: '1'
 title: 'Cat Blog and Nutrition Site'
 cover: './Fake1.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://google.com/'
+github: 'https://github.com/samrajsingh4'
+external: 'https://cat-site-chi.vercel.app/'
 tech:
   - JavaScript
   - React
