@@ -215,6 +215,9 @@ const Projects = () => {
     const { frontmatter, html } = node;
     const { github, external, title, tech } = frontmatter;
 
+    // Split the title by the line break sequence
+    const titleParts = title.split('\n');
+
     return (
       <div className="project-inner">
         <header>
@@ -234,7 +237,8 @@ const Projects = () => {
                   aria-label="External Link"
                   className="external"
                   target="_blank"
-                  rel="noreferrer">
+                  rel="noreferrer"
+                >
                   <Icon name="External" />
                 </a>
               )}
@@ -243,7 +247,12 @@ const Projects = () => {
 
           <h3 className="project-title">
             <a href={external} target="_blank" rel="noreferrer">
-              {title}
+              {titleParts.map((part, index) => (
+                <React.Fragment key={index}>
+                  {part}
+                  {index < titleParts.length - 1 && <br />}
+                </React.Fragment>
+              ))}
             </a>
           </h3>
 
@@ -287,13 +296,15 @@ const Projects = () => {
                   key={i}
                   classNames="fadeup"
                   timeout={i >= GRID_LIMIT ? (i - GRID_LIMIT) * 300 : 300}
-                  exit={false}>
+                  exit={false}
+                >
                   <StyledProject
                     key={i}
                     ref={el => (revealProjects.current[i] = el)}
                     style={{
                       transitionDelay: `${i >= GRID_LIMIT ? (i - GRID_LIMIT) * 100 : 0}ms`,
-                    }}>
+                    }}
+                  >
                     {projectInner(node)}
                   </StyledProject>
                 </CSSTransition>
