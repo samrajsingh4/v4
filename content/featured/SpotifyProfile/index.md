@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '1'
 title: 'Robust Inference of Semi-Functional \n Linear Regression Models'
 cover: './Fake2.png'
 github: 'https://github.com/samrajsingh4/Bayesian-Robust-Estimation-of-Semi-Functional-Linear-Regression'
