@@ -1,11 +1,11 @@
 ---
 date: '3'
-title: 'Trading Bot V2'
+title: 'Quantifying Impact of Typographical Adjustments on Legibility'
 cover: './Fake3.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+external: 'https://github.com/samrajsingh4/MNIST_Typographical_Adjustments/blob/master/Final%20Report.pdf'
+github: 'https://github.com/samrajsingh4/MNIST_Typographical_Adjustments/tree/master'
 tech:
-  - Pythom
+  - R
 ---
 
 Wanted to try trading bot that gives signals.
