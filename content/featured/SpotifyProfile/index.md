@@ -1,12 +1,11 @@
 ---
 date: '2'
-title: 'Trading Bot'
+title: 'Robust Inference of Semi-Functional Linear Regression Models'
 cover: './Fake2.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+github: 'https://github.com/samrajsingh4/Bayesian-Robust-Estimation-of-Semi-Functional-Linear-Regression'
+external: 'https://github.com/samrajsingh4/Bayesian-Robust-Estimation-of-Semi-Functional-Linear-Regression/blob/master/MSc_Dissertation.pdf'
 tech:
-  - React
-  - Python
+  - R
 ---
 
 Trading bot, using machine learning to make trades on Cryptocurrency.
