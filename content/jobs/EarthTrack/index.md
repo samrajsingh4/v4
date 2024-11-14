@@ -1,10 +1,10 @@
 ---
 date: '2023-08-14'
-title: 'Equity Research Summer Analyst'
-company: 'J.P. Morgan'
-location: 'London, UK'
-range: 'Jun 2022 - Aug 2022'
-url: 'https://www.jpmorgan.com/insights/research'
+title: 'Product Management Intern'
+company: 'EarthTrack'
+location: 'Remote, SG'
+range: 'Sep 2024 - Present'
+url: 'https://earthtrack.io/en'
 ---
 
 - Conceived and launched 4 new product features over the course of 3 Agile sprints, collaborating closely with engineering and design teams.
