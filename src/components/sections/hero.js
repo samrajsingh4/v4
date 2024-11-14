@@ -61,13 +61,15 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Samraj Singh.</h2>;
-  const three = <h3 className="big-heading">I aim to improve daily.</h3>;
+  const three = <h3 className="big-heading">I'd describe myself as a curious individual.</h3>;
   const four = (
     <>
       <p>
-        I’m a recent Graduate, interested in Data Science, Machine Learning, Software Engineering,
-        and Trading. Currently, I’m expanding my skillset, and looking for a role I believe I can
-        learn the most from.
+        I graduated from St Andrews with a masters in Applied Statistics and Datamining, however I
+        believe this degree only represnts a small subset of my lifelong learning. Right now I'm
+        helping build a start-up, working alongisde the exucutive team and speedrunning my
+        development. My interests include Products, Machine Learning, Software Engineering, Rock
+        Climbing, and Salsa.
       </p>
     </>
   );

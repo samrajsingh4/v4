@@ -136,9 +136,13 @@ const About = () => {
           <div>
             <p>Hello! My name is Samraj.</p>
 
-            <p>Sum random BS about me.</p>
-
-            <p>What I'm on rn.</p>
+            <p>
+              I graduated from St Andrews with a masters in Applied Statistics and Datamining,
+              however I believe this degree only represnts a small subset of my lifelong learning.
+              Right now I'm helping build a start-up, working alongisde the exucutive team and
+              speedrunning my development. My interests include Products, Machine Learning, Software
+              Engineering, Rock Climbing, and Salsa.
+            </p>
 
             <p>Here are a few technologies I’ve worked with:</p>
           </div>
