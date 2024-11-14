@@ -9,4 +9,4 @@ tech:
   - R
 ---
 
-Wanted to try trading bot that gives signals.
+Interesting piece of work where I quantified impact of typographical changes on legibility of MNIST dataset. Taking a popular dataset and putting a new spin on it.

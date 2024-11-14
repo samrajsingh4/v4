@@ -8,4 +8,4 @@ tech:
   - R
 ---
 
-Trading bot, using machine learning to make trades on Cryptocurrency.
+Paper I wrote on robust inference of semi-functional linear regression models.
